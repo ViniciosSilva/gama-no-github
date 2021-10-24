@@ -1,127 +1,129 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>formulario de cadastro</title>
-	<link rel="stylesheet" type="text/css" href="estilo.css" media="screen">
 
-	 <script type="text/javascript" src="script.js"></script>
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>formulario de cadastro</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css" media="screen">
+
+        <script type="text/javascript" src="script.js"></script>
 </head>
+
 <body>
 
-     <div>
-            <h1 id="titulo"> Faça seu cadastro </h1>
-            <p id="subtitulo"> Campos obrigatórios são marcados com * </p>
-            <br>
+        <div>
+                <h1 id="titulo"> Faça seu cadastro </h1>
+                <p id="subtitulo"> Campos obrigatórios são marcados com * </p>
+                <br>
         </div>
 
-<form action="" method="post">
+        <form action="" method="post">
 
-<div class="campo">
-<label for="nome"> <strong> *Nome: </strong> </label>
-        <input type="text" name="nome" id="nome" required/>
-</div>
+                <div class="campo">
+                        <label for="nome"> <strong> *Nome: </strong> </label>
+                        <input type="text" name="nome" id="nome" required />
+                </div>
 
-<div class="campo">
-                <label> <strong>Sexo: </strong> </label>
-                <label>
-                    <input type="radio" name="sexo" value="masculino" checked> Masculino
-                </label>
-				
-                <label>
-                    <input type="radio" name="sexo" value="feminino"> Feminino
-                </label>
+                <div class="campo">
+                        <label> <strong>Sexo: </strong> </label>
+                        <label>
+                                <input type="radio" name="sexo" value="masculino" checked> Masculino
+                        </label>
 
-</div>
+                        <label>
+                                <input type="radio" name="sexo" value="feminino"> Feminino
+                        </label>
 
-<div class="campo">
-<label for="cpf"> <strong> *CPF: </strong></label>
-        <input type="text" name="cpf" id="cpf" maxlength="11" required/>
-</div>
+                </div>
 
-<div class="campo">
-<label for="rg"> <strong> RG: </strong></label>
-        <input type="text" id="rg"/>
-</div>
+                <div class="campo">
+                        <label for="cpf"> <strong> *CPF: </strong></label>
+                        <input type="text" name="cpf" id="cpf" maxlength="11" required />
+                </div>
 
-<div class="campo">
-<label for="endereco"> <strong> *Endereço: </strong> </label>
-        <input type="text" id="endereco" required/>
-</div>
+                <div class="campo">
+                        <label for="rg"> <strong> RG: </strong></label>
+                        <input type="text" id="rg" />
+                </div>
 
-<div class="campo">
-<label for="numero"> <strong> *Número: </strong></label>
-        <input type="text" id="numero" required/>
-</div>
+                <div class="campo">
+                        <label for="endereco"> <strong> *Endereço: </strong> </label>
+                        <input type="text" id="endereco" required />
+                </div>
 
-<div class="campo">
-<label for="bairro"> <strong> Bairro: </strong></label>
-        <input type="text" id="bairro"/>
-</div>
+                <div class="campo">
+                        <label for="numero"> <strong> *Número: </strong></label>
+                        <input type="text" id="numero" required />
+                </div>
 
-<div class="campo">
-<label for="cidade"> <strong> Cidade: </strong> </label>
-        <input type="text" id="cidade"/>
-</div>
+                <div class="campo">
+                        <label for="bairro"> <strong> Bairro: </strong></label>
+                        <input type="text" id="bairro" />
+                </div>
 
-<div class="campo">
-<label for="cep"> <strong> CEP: </strong> </label>
-        <input type="text" id="cep"/>
-</div>
+                <div class="campo">
+                        <label for="cidade"> <strong> Cidade: </strong> </label>
+                        <input type="text" id="cidade" />
+                </div>
 
-<div class="campo"\>
-<label for="estado"> <strong> Estado: </strong></label>
-    <select name="estado" id="estado">
-<option selected disabled value="Selecione"> Selecione </option>
-    <option value="ac">Acre</option> 
-    <option value="al">Alagoas</option> 
-    <option value="am">Amazonas</option> 
-    <option value="ap">Amapá</option> 
-    <option value="ba">Bahia</option> 
-    <option value="ce">Ceará</option> 
-    <option value="df">Distrito Federal</option> 
-    <option value="es">Espírito Santo</option> 
-    <option value="go">Goiás</option> 
-    <option value="ma">Maranhão</option> 
-    <option value="mt">Mato Grosso</option> 
-    <option value="ms">Mato Grosso do Sul</option> 
-    <option value="mg">Minas Gerais</option> 
-    <option value="pa">Pará</option> 
-    <option value="pb">Paraíba</option> 
-    <option value="pr">Paraná</option> 
-    <option value="pe">Pernambuco</option> 
-    <option value="pi">Piauí</option> 
-    <option value="rj">Rio de Janeiro</option> 
-    <option value="rn">Rio Grande do Norte</option> 
-    <option value="ro">Rondônia</option> 
-    <option value="rs">Rio Grande do Sul</option> 
-    <option value="rr">Roraima</option> 
-    <option value="sc">Santa Catarina</option> 
-    <option value="se">Sergipe</option> 
-    <option value="sp">São Paulo</option> 
-    <option value="to">Tocantins</option> 
-   </select>
-   
-</div>
+                <div class="campo">
+                        <label for="cep"> <strong> CEP: </strong> </label>
+                        <input type="text" id="cep" />
+                </div>
 
-<div class="campo">
-<label for="fixo"> <strong> Telefone fixo: </strong> </label>
-        <input type="text" id="fixo" placeholder="(99) 99999-9999"/>
-</div>
+                <div class="campo" \>
+                        <label for="estado"> <strong> Estado: </strong></label>
+                        <select name="estado" id="estado">
+                                <option selected disabled value="Selecione"> Selecione </option>
+                                <option value="ac">Acre</option>
+                                <option value="al">Alagoas</option>
+                                <option value="am">Amazonas</option>
+                                <option value="ap">Amapá</option>
+                                <option value="ba">Bahia</option>
+                                <option value="ce">Ceará</option>
+                                <option value="df">Distrito Federal</option>
+                                <option value="es">Espírito Santo</option>
+                                <option value="go">Goiás</option>
+                                <option value="ma">Maranhão</option>
+                                <option value="mt">Mato Grosso</option>
+                                <option value="ms">Mato Grosso do Sul</option>
+                                <option value="mg">Minas Gerais</option>
+                                <option value="pa">Pará</option>
+                                <option value="pb">Paraíba</option>
+                                <option value="pr">Paraná</option>
+                                <option value="pe">Pernambuco</option>
+                                <option value="pi">Piauí</option>
+                                <option value="rj">Rio de Janeiro</option>
+                                <option value="rn">Rio Grande do Norte</option>
+                                <option value="ro">Rondônia</option>
+                                <option value="rs">Rio Grande do Sul</option>
+                                <option value="rr">Roraima</option>
+                                <option value="sc">Santa Catarina</option>
+                                <option value="se">Sergipe</option>
+                                <option value="sp">São Paulo</option>
+                                <option value="to">Tocantins</option>
+                        </select>
 
-<div class="campo">
-<label for="cel"> <strong> *Celular: </strong> </label>
-        <input type="text" id="cel" placeholder="(99) 99999-9999"required/>
-</div>
+                </div>
+
+                <div class="campo">
+                        <label for="fixo"> <strong> Telefone fixo: </strong> </label>
+                        <input type="text" id="fixo" placeholder="(99) 99999-9999" />
+                </div>
+
+                <div class="campo">
+                        <label for="cel"> <strong> *Celular: </strong> </label>
+                        <input type="text" id="cel" placeholder="(99) 99999-9999" required />
+                </div>
 
 
-    <div class="button">
-        <button type="submit" id="enviar" onclick="validar()">Enviar </button>
-    </div>
+                <div class="button">
+                        <button type="submit" id="enviar" onclick="validar()">Enviar </button>
+                </div>
 
-</form>        
+        </form>
 </body>
 
 </html>

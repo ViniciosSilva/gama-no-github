@@ -14,3 +14,22 @@ Para selecionar o campo Sexo é usado um botão do tipo Rádio e para o campo Es
 No arquivo Script.js está implementada a Função Valida que verifica se os campos obrigatórios foram preenchidos, se verdadeiro, retorna uma mensagem que os dados foram enviados, se não, retorna uma mensagem descrevendo qual campo não foi informado.
 
 No arquivo Estilo.css foi configurada a cor de fundo do site, a cor e o tipo de fonte e o alinhamento dos campos.            
+
+link do formulário
+https://pedantic-sammet-f1f44f.netlify.app/
+
+perfil no github:
+https://github.com/viniciossilva
+
+link do repositório do formulário:
+https://github.com/ViniciosSilva/gama-no-github
+
+links de pesquisa que foram usados durante a realização do desafio
+
+https://www.htmlprogressivo.net/p/indice-da-apostila-html-progressivo.html
+
+https://www.javascriptprogressivo.net/
+
+https://medium.com/@jezmael/como-validar-os-dados-de-um-formul%C3%A1rio-com-javascript-abdc5a5fba67#:~:text=De%20modo%20simples%2C%20pegamos%20o,por%20meio%20de%20seu%20id.
+
+https://www.youtube.com/watch?v=wwqOJ2o84S4&t=1001s&ab_channel=RafaellaBallerini
