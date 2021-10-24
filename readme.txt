@@ -11,20 +11,21 @@ A verificação dos campos obrigatórios é feita no Html com o atributo <requir
 Os campos de Nome, CPF, RG, Endereço, Número, CEP, Cidade, são do tipo Caixa de Texto. Já os campos de Telefone Fixo e Telefone Celular são do tipo Texto com um conteúdo exemplo para o usuário, que mostra como  ser preenchido.
 Para selecionar o campo Sexo é usado um botão do tipo Rádio e para o campo Estado é usada uma caixa de seleção.
 
-No arquivo Script.js está implementada a Função Valida que verifica se os campos obrigatórios foram preenchidos, se verdadeiro, retorna uma mensagem que os dados foram enviados, se não, retorna uma mensagem descrevendo qual campo não foi informado.
+No arquivo Script.js está implementada a Função Validar que verifica se os campos obrigatórios foram preenchidos, se verdadeiro, retorna uma mensagem que os dados foram enviados, se não, retorna uma mensagem descrevendo qual campo não foi informado.
 
-No arquivo Estilo.css foi configurada a cor de fundo do site, a cor e o tipo de fonte e o alinhamento dos campos.            
+No arquivo Estilo.css foi configurada a cor de fundo do site, e, o tamanho, tipo e a cor da fonte.
+Houve tratamento no alinhamento dos campos e acréscimo de borda.             
 
-link do formulário
+Link do formulário:
 https://pedantic-sammet-f1f44f.netlify.app/
 
-perfil no github:
+perfil no Github:
 https://github.com/viniciossilva
 
-link do repositório do formulário:
+Link do repositório do formulário:
 https://github.com/ViniciosSilva/gama-no-github
 
-links de pesquisa que foram usados durante a realização do desafio
+Links de pesquisa que foram usados durante a realização do desafio
 
 https://www.htmlprogressivo.net/p/indice-da-apostila-html-progressivo.html
 
