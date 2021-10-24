@@ -13,7 +13,7 @@ function validar(){
 return;
 }
 
-  if (cpf.value == "") {
+  if (cpf.value.length < 11) {
     alert("CPF não informado");
     cpf.focus();
 return;
