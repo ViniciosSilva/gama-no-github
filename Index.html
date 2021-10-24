@@ -1,31 +1,127 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
-	<head>
-		<title> Minha página html </title>
-		<meta charset="utf-8">
-		<meta name="description" content="Breve descrição da página">
-		<meta name="keywords" content=" palavras, chaves, separadas, por virgula">
-		<link rel="stylesheet" href="estilo.css">
-	</head>
-	<body>
-		<div id="header">
-			<h1 id="tituloPrincipal"> só boas notícias COVID-19 </H1>
-			<a href="Index.html"> Home </a> <a href="sobre.html"> Sobre nós </a> <a href="contato.html"> Contato </a> <a href="saibaMais.html"> Saiba mais </a>
-			
-		</div>
-		<div id="content">
-			<article>
-				<p> notícia 1 </p>
-				<p> noticia 2 </p>
-				<p> notícia 3 </´>
-				<p> notícia 4 </p>
-				<p> noticia 5 </p>
-				<p> noticia 6 </p>
-			</article>
-		</div>
-		<div id="footer">
-		
-		</div>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario de cadastro</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css" media="screen">
+
+	 <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+     <div>
+            <h1 id="titulo"> Faça seu cadastro </h1>
+            <p id="subtitulo"> Campos obrigatórios são marcados com * </p>
+            <br>
+        </div>
+
+<form action="" method="post">
+
+<div class="campo">
+<label for="nome"> <strong> *Nome: </strong> </label>
+        <input type="text" name="nome" id="nome"/>
+</div>
+
+<div class="campo">
+                <label> <strong>Sexo: </strong> </label>
+                <label>
+                    <input type="radio" name="sexo" value="masculino" checked> Masculino
+                </label>
+				
+                <label>
+                    <input type="radio" name="sexo" value="feminino"> Feminino
+                </label>
+
+</div>
+
+<div class="campo">
+<label for="cpf"> <strong> *CPF: </strong></label>
+        <input type="text" name="cpf" id="cpf" maxlength="11"/>
+</div>
+
+<div class="campo">
+<label for="rg"> <strong> RG: </strong></label>
+        <input type="text" id="rg"/>
+</div>
+
+<div class="campo">
+<label for="endereco"> <strong> *Endereço: </strong> </label>
+        <input type="text" id="endereco"/>
+</div>
+
+<div class="campo">
+<label for="numero"> <strong> *Número: </strong></label>
+        <input type="text" id="numero"/>
+</div>
+
+<div class="campo">
+<label for="bairro"> <strong> Bairro: </strong></label>
+        <input type="text" id="bairro"/>
+</div>
+
+<div class="campo">
+<label for="cidade"> <strong> Cidade: </strong> </label>
+        <input type="text" id="cidade"/>
+</div>
+
+<div class="campo">
+<label for="cep"> <strong> CEP: </strong> </label>
+        <input type="text" id="cep"/>
+</div>
+
+<div class="campo"\>
+<label for="estado"> <strong> Estado: </strong></label>
+    <select name="estado" id="estado">
+<option selected disabled value="Selecione"> Selecione </option>
+    <option value="ac">Acre</option> 
+    <option value="al">Alagoas</option> 
+    <option value="am">Amazonas</option> 
+    <option value="ap">Amapá</option> 
+    <option value="ba">Bahia</option> 
+    <option value="ce">Ceará</option> 
+    <option value="df">Distrito Federal</option> 
+    <option value="es">Espírito Santo</option> 
+    <option value="go">Goiás</option> 
+    <option value="ma">Maranhão</option> 
+    <option value="mt">Mato Grosso</option> 
+    <option value="ms">Mato Grosso do Sul</option> 
+    <option value="mg">Minas Gerais</option> 
+    <option value="pa">Pará</option> 
+    <option value="pb">Paraíba</option> 
+    <option value="pr">Paraná</option> 
+    <option value="pe">Pernambuco</option> 
+    <option value="pi">Piauí</option> 
+    <option value="rj">Rio de Janeiro</option> 
+    <option value="rn">Rio Grande do Norte</option> 
+    <option value="ro">Rondônia</option> 
+    <option value="rs">Rio Grande do Sul</option> 
+    <option value="rr">Roraima</option> 
+    <option value="sc">Santa Catarina</option> 
+    <option value="se">Sergipe</option> 
+    <option value="sp">São Paulo</option> 
+    <option value="to">Tocantins</option> 
+   </select>
+   
+</div>
+
+<div class="campo">
+<label for="fixo"> <strong> Telefone fixo: </strong> </label>
+        <input type="text" id="fixo"/>
+</div>
+
+<div class="campo">
+<label for="cel"> <strong> *Celular: </strong> </label>
+        <input type="text" id="cel"/>
+</div>
+
+
+    <div class="button">
+        <button type="submit" id="enviar" onclick="validar()">Enviar </button>
+    </div>
+
+</form>        
+</body>
+
 </html>
